@@ -9,7 +9,7 @@ dbms_output.put_line(x);
 end;
 
 
-delete from emp where employee_id=101;
+delete from emp where employee_id=102;
 
 
 
@@ -35,7 +35,7 @@ declare
 v1 sys_Refcursor;
 i employees%rowtype;
 j departments%rowtype;
-v_Deptno number(20):=10;
+v_Deptno number(20):=20;
 begin
 if v_Deptno=10 then
 open v1 for select * From employees;
